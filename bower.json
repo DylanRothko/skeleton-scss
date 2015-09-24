@@ -1,0 +1,23 @@
+{
+  "name": "skeleton-scss",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DylanRothko/skeleton-scss",
+  "authors": [
+    "Dylan Gaines <dylan@dylangaines.com>"
+  ],
+  "description": "A port of SkeletonCSS to SCSS",
+  "main": "_skeleton.scss",
+  "moduleType": [],
+  "keywords": [
+    "SkeletonCSS",
+    "SkeletonSCSS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
