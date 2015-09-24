@@ -24,7 +24,7 @@
   }
   
   @include media($media-sm){
-    width: 300px;
+    width: 420px;
   }
 
   .row, .clearfix{
@@ -73,10 +73,11 @@
         width: 28px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       }
       
     }
+    
     &.two{
       width: 100px;
       
@@ -87,10 +88,11 @@
         width: 76px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       }      
       
     }
+    
     &.three{
       width: 160px;
       
@@ -101,10 +103,11 @@
         width: 124px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       }      
       
     }
+    
     &.four{
       width: 220px;
 
@@ -115,10 +118,11 @@
         width: 172px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.five{
       width: 280px;
 
@@ -129,10 +133,11 @@
         width: 220px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.six{
       width: 340px;
 
@@ -143,10 +148,11 @@
         width: 268px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.seven{
       width: 400px;
 
@@ -157,10 +163,11 @@
         width: 316px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.eight{
       width: 460px;
       
@@ -171,10 +178,11 @@
         width: 364px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       }       
       
     }
+    
     &.nine{
       width: 520px;
 
@@ -185,10 +193,11 @@
         width: 412px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.ten{
       width: 580px;
       
@@ -199,10 +208,11 @@
         width: 460px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       }       
       
     }
+    
     &.eleven{
       width: 640px;
 
@@ -213,10 +223,11 @@
         width: 508px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.twelve{
       width: 700px;
 
@@ -227,10 +238,11 @@
         width: 556px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.thirteen{
       width: 760px;
 
@@ -241,10 +253,11 @@
         width: 604px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.fourteen{
       width: 820px;
 
@@ -255,10 +268,11 @@
         width: 652px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.fifteen{
       width: 880px;
 
@@ -269,10 +283,11 @@
         width: 700px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
     &.sixteen{
       width: 940px;
 
@@ -283,10 +298,250 @@
         width: 748px;
       }
       @include media($media-sm){
-        width: 300px;
+        width: 420px;
       } 
 
     }
+    
+    &.offset-by-one{ 
+      padding-left: 60px;  
+
+      @include media($media-xl){
+        width: 75px;
+      }
+      @include media($media-md){
+        width: 48px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+    
+    }
+    
+    &.offset-by-two{ 
+      padding-left: 120px; 
+
+      @include media($media-xl){
+        width: 150px;
+      }
+      @include media($media-md){
+        width: 76px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+    
+    }
+    
+    &.offset-by-three{ 
+      padding-left: 180px; 
+
+      @include media($media-xl){
+        width: 225px;
+      }
+      @include media($media-md){
+        width: 124px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+    
+    }
+    
+    &.offset-by-four{ 
+      padding-left: 240px; 
+
+      @include media($media-xl){
+        width: 300px;
+      }
+      @include media($media-md){
+        width: 192px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+    
+    }
+    
+    &.offset-by-five{ 
+      padding-left: 300px; 
+
+      @include media($media-xl){
+        width: 375px;
+      }
+      @include media($media-md){
+        width: 240px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+    
+    }
+    
+    &.offset-by-six{ 
+      padding-left: 360px; 
+
+      @include media($media-xl){
+        width: 450px;
+      }
+      @include media($media-md){
+        width: 288px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      } 
+      
+    }
+    
+    &.offset-by-seven{ 
+      padding-left: 420px; 
+
+      @include media($media-xl){
+        width: 525px;
+      }
+      @include media($media-md){
+        width: 336px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }
+    
+    }
+    
+    &.offset-by-eight{ 
+      padding-left: 480px; 
+
+      @include media($media-xl){
+        width: 600px;
+      }
+      @include media($media-md){
+        width: 384px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }
+          
+    }
+    
+    &.offset-by-nine{ 
+      padding-left: 540px; 
+      
+      @include media($media-xl){
+        width: 675px;
+      }
+      @include media($media-md){
+        width: 432px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }    
+
+    }
+    
+    &.offset-by-ten{ 
+      padding-left: 600px; 
+
+      @include media($media-xl){
+        width: 750px;
+      }
+      @include media($media-md){
+        width: 480px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }     
+
+    }
+    
+    &.offset-by-eleven{ 
+      padding-left: 660px; 
+
+      @include media($media-xl){
+        width: 825px;
+      }
+      @include media($media-md){
+        width: 528px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      } 
+    
+    }
+    
+    &.offset-by-twelve{ 
+      padding-left: 720px; 
+
+      @include media($media-xl){
+        width: 900px;
+      }
+      @include media($media-md){
+        width: 576px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }
+    
+    }
+    
+    &.offset-by-thirteen{ 
+      padding-left: 780px; 
+
+      @include media($media-xl){
+        width: 975px;
+      }
+      @include media($media-md){
+        width: 624px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }
+    
+    }
+    
+    &.offset-by-fourteen{ 
+      padding-left: 840px; 
+
+      @include media($media-xl){
+        width: 1050px;
+      }
+      @include media($media-md){
+        width: 672px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }    
+
+    }
+    
+    &.offset-by-fifteen{ 
+      padding-left: 900px; 
+
+      @include media($media-xl){
+        width: 1125px;
+      }
+      @include media($media-md){
+        width: 720px;
+      }
+      @include media($media-sm){
+        width: 0px;
+        padding-left: 0px;
+      }
+    
+    }     
       
   }
   
