@@ -1,0 +1,293 @@
+@import "mixins";
+@import "vairables";
+
+.container{ 
+  position: relative; 
+  width: 960px; 
+  margin: 0 auto; 
+  padding: 0; 
+
+  &:after { 
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+  }
+
+  @include media($media-xl){
+    width: 1200px;
+  }
+
+  @include media($media-md){
+    width: 768px;
+  }
+  
+  @include media($media-sm){
+    width: 300px;
+  }
+
+  .row, .clearfix{
+    margin-bottom: 20px;
+    &:before, &:after{
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;  
+      zoom: 1;    
+    }
+  }
+  
+  .clear{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;    
+  }
+
+  .column, .columns{
+    float: left; 
+    display: inline; 
+    margin-left: 10px; 
+    margin-right: 10px;
+    
+    &.alpha{
+      margin-left: 0;      
+    }
+    
+    &.omega{
+      margin-right: 0; 
+    }
+
+    &.one{
+      width: 40px;
+      
+      @include media($media-xl){
+        width: 55px;
+      }
+      @include media($media-md){
+        width: 28px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      }
+      
+    }
+    &.two{
+      width: 100px;
+      
+      @include media($media-xl){
+        width: 130px;
+      }
+      @include media($media-md){
+        width: 76px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      }      
+      
+    }
+    &.three{
+      width: 160px;
+      
+      @include media($media-xl){
+        width: 205px;
+      }
+      @include media($media-md){
+        width: 124px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      }      
+      
+    }
+    &.four{
+      width: 220px;
+
+      @include media($media-xl){
+        width: 280px;
+      }
+      @include media($media-md){
+        width: 172px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.five{
+      width: 280px;
+
+      @include media($media-xl){
+        width: 355px;
+      }
+      @include media($media-md){
+        width: 220px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.six{
+      width: 340px;
+
+      @include media($media-xl){
+        width: 430px;
+      }
+      @include media($media-md){
+        width: 268px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.seven{
+      width: 400px;
+
+      @include media($media-xl){
+        width: 505px;
+      }
+      @include media($media-md){
+        width: 316px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.eight{
+      width: 460px;
+      
+      @include media($media-xl){
+        width: 580px;
+      }
+      @include media($media-md){
+        width: 364px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      }       
+      
+    }
+    &.nine{
+      width: 520px;
+
+      @include media($media-xl){
+        width: 655px;
+      }
+      @include media($media-md){
+        width: 412px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.ten{
+      width: 580px;
+      
+      @include media($media-xl){
+        width: 730px;
+      }
+      @include media($media-md){
+        width: 460px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      }       
+      
+    }
+    &.eleven{
+      width: 640px;
+
+      @include media($media-xl){
+        width: 805px;
+      }
+      @include media($media-md){
+        width: 508px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.twelve{
+      width: 700px;
+
+      @include media($media-xl){
+        width: 880px;
+      }
+      @include media($media-md){
+        width: 556px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.thirteen{
+      width: 760px;
+
+      @include media($media-xl){
+        width: 955px;
+      }
+      @include media($media-md){
+        width: 604px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.fourteen{
+      width: 820px;
+
+      @include media($media-xl){
+        width: 1030px;
+      }
+      @include media($media-md){
+        width: 652px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.fifteen{
+      width: 880px;
+
+      @include media($media-xl){
+        width: 1105px;
+      }
+      @include media($media-md){
+        width: 700px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+    &.sixteen{
+      width: 940px;
+
+      @include media($media-xl){
+        width: 1180px;
+      }
+      @include media($media-md){
+        width: 748px;
+      }
+      @include media($media-sm){
+        width: 300px;
+      } 
+
+    }
+      
+  }
+  
+}
