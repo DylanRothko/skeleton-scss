@@ -1,0 +1,5 @@
+$media-xs: new-breakpoint(max-width 480px);
+$media-sm: new-breakpoint(max-width 767px);
+$media-md: new-breakpoint(max-width 959px);
+$media-lg: new-breakpoint(max-width 1199px);
+$media-xl: new-breakpoint(min-width 1200px);
