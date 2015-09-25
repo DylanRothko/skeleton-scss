@@ -304,226 +304,226 @@
     }
     
     &.offset-by-one{ 
-      padding-left: 60px;  
+      margin-left: 60px;  
 
       @include media($media-xl){
-        padding-left: 75px;
+        margin-left: 75px;
       }
       @include media($media-md){
-        padding-left: 48px;
+        margin-left: 48px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
     
     }
     
     &.offset-by-two{ 
-      padding-left: 120px; 
+      margin-left: 120px; 
 
       @include media($media-xl){
-        padding-left: 150px;
+        margin-left: 150px;
       }
       @include media($media-md){
-        padding-left: 76px;
+        margin-left: 76px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
     
     }
     
     &.offset-by-three{ 
-      padding-left: 180px; 
+      margin-left: 180px; 
 
       @include media($media-xl){
-        padding-left: 225px;
+        margin-left: 225px;
       }
       @include media($media-md){
-        padding-left: 124px;
+        margin-left: 124px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
     
     }
     
     &.offset-by-four{ 
-      padding-left: 240px; 
+      margin-left: 240px; 
 
       @include media($media-xl){
-        padding-left: 300px;
+        margin-left: 300px;
       }
       @include media($media-md){
-        padding-left: 192px;
+        margin-left: 192px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
     
     }
     
     &.offset-by-five{ 
-      padding-left: 300px; 
+      margin-left: 300px; 
 
       @include media($media-xl){
-        padding-left: 375px;
+        margin-left: 375px;
       }
       @include media($media-md){
-        padding-left: 240px;
+        margin-left: 240px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
     
     }
     
     &.offset-by-six{ 
-      padding-left: 360px; 
+      margin-left: 360px; 
 
       @include media($media-xl){
-        padding-left: 450px;
+        margin-left: 450px;
       }
       @include media($media-md){
-        padding-left: 288px;
+        margin-left: 288px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       } 
       
     }
     
     &.offset-by-seven{ 
-      padding-left: 420px; 
+      margin-left: 420px; 
 
       @include media($media-xl){
-        padding-left: 525px;
+        margin-left: 525px;
       }
       @include media($media-md){
-        padding-left: 336px;
+        margin-left: 336px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }
     
     }
     
     &.offset-by-eight{ 
-      padding-left: 480px; 
+      margin-left: 480px; 
 
       @include media($media-xl){
-        padding-left: 600px;
+        margin-left: 600px;
       }
       @include media($media-md){
-        padding-left: 384px;
+        margin-left: 384px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }
           
     }
     
     &.offset-by-nine{ 
-      padding-left: 540px; 
+      margin-left: 540px; 
       
       @include media($media-xl){
-        padding-left: 675px;
+        margin-left: 675px;
       }
       @include media($media-md){
-        padding-left: 432px;
+        margin-left: 432px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }    
 
     }
     
     &.offset-by-ten{ 
-      padding-left: 600px; 
+      margin-left: 600px; 
 
       @include media($media-xl){
-        padding-left: 750px;
+        margin-left: 750px;
       }
       @include media($media-md){
-        padding-left: 480px;
+        margin-left: 480px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }     
 
     }
     
     &.offset-by-eleven{ 
-      padding-left: 660px; 
+      margin-left: 660px; 
 
       @include media($media-xl){
-        padding-left: 825px;
+        margin-left: 825px;
       }
       @include media($media-md){
-        padding-left: 528px;
+        margin-left: 528px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       } 
     
     }
     
     &.offset-by-twelve{ 
-      padding-left: 720px; 
+      margin-left: 720px; 
 
       @include media($media-xl){
-        padding-left: 900px;
+        margin-left: 900px;
       }
       @include media($media-md){
-        padding-left: 576px;
+        margin-left: 576px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }
     
     }
     
     &.offset-by-thirteen{ 
-      padding-left: 780px; 
+      margin-left: 780px; 
 
       @include media($media-xl){
-        padding-left: 975px;
+        margin-left: 975px;
       }
       @include media($media-md){
-        padding-left: 624px;
+        margin-left: 624px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }
     
     }
     
     &.offset-by-fourteen{ 
-      padding-left: 840px; 
+      margin-left: 840px; 
 
       @include media($media-xl){
-        padding-left: 1050px;
+        margin-left: 1050px;
       }
       @include media($media-md){
-        padding-left: 672px;
+        margin-left: 672px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }    
 
     }
     
     &.offset-by-fifteen{ 
-      padding-left: 900px; 
+      margin-left: 900px; 
 
       @include media($media-xl){
-        padding-left: 1125px;
+        margin-left: 1125px;
       }
       @include media($media-md){
-        padding-left: 720px;
+        margin-left: 720px;
       }
       @include media($media-sm){
-        padding-left: 0px;
+        margin-left: 0px;
       }
     
     }     
