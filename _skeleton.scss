@@ -26,6 +26,10 @@
   @include media($media-sm){
     width: 420px;
   }
+  
+  @include media($media-xs){
+    width: 320px;
+  }
 
   .row, .clearfix{
     margin-bottom: 20px;
