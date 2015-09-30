@@ -10,10 +10,12 @@
 - _skeleton.scss
 - _variables.scss
 - _mixins.scss
+
 /src
 - skeleton.css
 - base.css
 - layout.css
+
 bower.json
 LICENSE
 README.md
