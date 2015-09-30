@@ -17,5 +17,3 @@
 - layout.css
 
 bower.json
-LICENSE
-README.md
