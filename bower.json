@@ -1,12 +1,12 @@
 {
   "name": "SkeletonScss",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/DylanRothko/skeleton-scss",
   "authors": [
     "Dylan Gaines <dylan@dylangaines.com>"
   ],
   "description": "A port of SkeletonCSS to SCSS",
-  "main": "_skeleton.scss",
+  "main": "dist/_skeleton.scss",
   "moduleType": [],
   "keywords": [
     "SkeletonCSS",
