@@ -6,14 +6,14 @@
 
 #### Project Structure
 
-- dist
--- _skeleton.scss
--- _variables.scss
--- _mixins.scss
-- src
--- skeleton.css
--- base.css
--- layout.css
+/dist
+- _skeleton.scss
+- _variables.scss
+- _mixins.scss
+/src
+- skeleton.css
+- base.css
+- layout.css
 bower.json
 LICENSE
 README.md
